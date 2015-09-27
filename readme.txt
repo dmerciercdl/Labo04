@@ -1,11 +1,12 @@
-1. Lancer index.html dans votre navigateur préféré
-2. Apprécier la classe avec les outils de debug (F12)
-3. Pour instancier la classe, il s'agit de procéder comme suit:
-var calc = new Calculator(10);
-4. La valeur passée au constructeur est optionnelle.
+1. Lancer calculator.html dans votre navigateur préféré.
+2. Apprécier la calculatrice.
 
-Note: Je n'ai pas implémenté la fonction gamma qui calcule une factoriel d'un nombre réel. Donc, la fonction
-ne fonctionne que s'il s'agit d'un nombre entier. Dans le cas où un nombre réel est passé à la fonction, alors
-elle lève une exception de type "notImplementedException".
+Note: Tous les cas ne sont pas gérés parfaitement et j'en suis pleinement conscient. Par contre, la majorité des éléments de
+la grille de correction sont présents:
+- Utiliser JQuery
+- Utiliser l'aspect "chaînable" de la calculatrice
+- Géolocalisation = OK
+- Fondu = OK
+- Fonctionnalités du chapitre 3 = manque la fonction de mémoire
 
-Note2: main.js contient quelques tests unitaires. C'est loin d'être complet, mais c'est un début.
+J'ai opté pour passer plus de temps sur la remise du projet de session que sur ce lab.
