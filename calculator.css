@@ -1,0 +1,41 @@
+.headerContainer {
+    margin: 5%;
+}
+
+.mainContainer {
+    margin: 5%;
+}
+
+/*btn-disabled {
+    color: grey;
+}
+*/
+.btn-default {
+     width: 45px;
+     height: 45px;
+}
+
+.btn-primary {
+     width: 45px;
+     height: 45px;
+}
+
+.btn-info {
+    width: 45px;
+    height: 45px;
+}
+
+.btn-warning {
+    width: 45px;
+    height: 45px;
+}
+
+.btn-wider {
+    width: 90px;
+    height: 45px;
+}
+
+#resultContainer {
+    border: .2em solid grey;
+    width: 200px;
+}
