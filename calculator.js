@@ -83,7 +83,7 @@ var Calculator = function () {
         return this;
     }
 
-    this.tan = function() {
+    this.tan = function(value) {
         equation += 'Math.tan(' + parseFloat(value) + ')'
         return this;
     }

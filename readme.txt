@@ -6,7 +6,8 @@ la grille de correction sont présents:
 - Utiliser JQuery
 - Utiliser l'aspect "chaînable" de la calculatrice
 - Géolocalisation = OK
-- Fondu = OK
-- Fonctionnalités du chapitre 3 = manque la fonction de mémoire
+- Fondu sur réponse = OK
 
 J'ai opté pour passer plus de temps sur la remise du projet de session que sur ce lab.
+
+Note2: By the way, il y avait une erreur dans la fonction tan de calculator.js. Il manquait le paramètre.
