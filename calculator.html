@@ -2,10 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calculator.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="calculator.js"></script>
+    <script type="text/javascript" src="geolocation.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    <title></title>
+
 </head>
 <body>
+
+<div class="headerContainer">
+    <p>Your current location is: <span id="userLocation"></span></p>
+</div>
+
+<div class="mainContainer">
+    <p>
+        <div id="resultContainer">
+            <span id="result">0</span>
+        </div>
+    </p>
+    <p>
+        <button type="button" id="7" class="btn btn-default">7</button>
+        <button type="button" id="8" class="btn btn-default">8</button>
+        <button type="button" id="9" class="btn btn-default">9</button>
+        <button type="button" id="add" class="btn btn-primary">+</button>
+        <button type="button" id="sin" class="btn btn-primary">sin</button>
+    </p>
+    <p>
+        <button type="button" id="4" class="btn btn-default">4</button>
+        <button type="button" id="5" class="btn btn-default">5</button>
+        <button type="button" id="6" class="btn btn-default">6</button>
+        <button type="button" id="substract" class="btn btn-primary">-</button>
+        <button type="button" id="cos" class="btn btn-primary">cos</button>
+    </p>
+    <p>
+        <button type="button" id="1" class="btn btn-default">1</button>
+        <button type="button" id="2" class="btn btn-default">2</button>
+        <button type="button" id="3" class="btn btn-default">3</button>
+        <button type="button" id="multiply" class="btn btn-primary">x</button>
+        <button type="button" id="tan" class="btn btn-primary">tan</button>
+    </p>
+    <p>
+        <button type="button" id="0" class="btn btn-default">0</button>
+        <button type="button" id="reset" class="btn btn-warning">C</button>
+        <button type="button" id="factorial" class="btn btn-primary">!</button>
+            <button type="button" id="divide" class="btn btn-primary">÷</button>
+        <button type="button" id="equal" class="btn btn-info">=</button>
+    </p>
+</div>
     
 </body>
 </html>
